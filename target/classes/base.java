@@ -27,7 +27,8 @@ FileInputStream fis=new FileInputStream("C:\\Users\\Nitin Bhatia\\eclipse-worksp
 prop.load(fis);
 String browserName=prop.getProperty("browser");
 System.out.println(browserName);
-
+System.out.println("browserTag");
+System.out.println("browserURL");
 if(browserName.equals("chrome"))
 {
 	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nitin Bhatia\\Downloads\\chromedriver_win3.exe\\chromedriver.exe");
